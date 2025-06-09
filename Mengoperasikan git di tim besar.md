@@ -10,3 +10,10 @@ action(feat, UI, fix)/card(nomor kartu jira)/page(area)/desc(detail)
 3. buat commit di branch tersebut
 4. push origin sesuai nama branch tersebut
 5. maintainer/senior akan merge ke DEVELOP
+
+
+Beberapa branch yang butuh ada di local repo
+- master (track origin/master)
+- staging (track origin/staging, jika dibutuhkan)
+- develop (track origin/develop)
+- Hanya branch fitur yang aktif saat ini (belum merge)
