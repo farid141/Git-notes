@@ -7,6 +7,7 @@ Dalam pengoperasian git tim besar yang sudah dijelaskan, bisa saja terdapat bebe
 git checkout develop
 git pull origin develop   # pastikan develop terbaru
 git branch --merged | grep 'feat/123/login'
+git log --oneline|grep "adjust"
 ```
 
 ## Working with team
