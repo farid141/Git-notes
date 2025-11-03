@@ -18,9 +18,9 @@
 | Istilah       | Arti                                                                  |
 | ------------- | --------------------------------------------------------------------- |
 | `HEAD`        | Commit aktif saat ini                                                 |
+| `HEAD~1`      | Commit sebelum `HEAD` (bisa dikombinasikan lebih jauh: `HEAD~2`, dll) |
 | `commitID`    | Hash unik dari commit tertentu                                        |
 | `origin/main` | Referensi ke branch `main` di remote `origin`                         |
-| `HEAD~1`      | Commit sebelum `HEAD` (bisa dikombinasikan lebih jauh: `HEAD~2`, dll) |
 
 ## Login ssh key
 
