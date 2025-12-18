@@ -14,11 +14,13 @@ pick d4e5f6g Final working version
 
 # Ubah menjadi 
 pick a1b2c3d First attempt
-squash b2c3d4e Fixed bug
+pick b2c3d4e Fixed bug      ← biarkan ini tetap pick (ganti commit desc jika perlu)
 squash c3d4e5f Another trial
-pick d4e5f6g Final working version   ← biarkan ini tetap pick
+squash d4e5f6g Final working version   
 ```
 
-Dengan cara diatas, commit `b2c` dan `c3d` dihapus, tetapi perubahan akan tetap ada di final version.
+Dengan cara diatas, commit `c3d` dan `d4e5` dihapus, tetapi perubahan akan tetap ada di `b2c3d`.
 
-Tetapi jika menggunakan `drop` maka commit dan perubahan akan dihapus.
+## Drop
+
+Jika menggunakan `drop` maka commit dan perubahan akan dihapus. (sangat jarang digunakan).
